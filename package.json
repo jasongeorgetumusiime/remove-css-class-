@@ -1,0 +1,28 @@
+{
+  "name": "@jasongeorgetumusiime/remove-css-class",
+  "version": "1.0.0",
+  "description": "A cli tool to remove all occurances of a specified css class from html page",
+  "main": "src/index.js",
+  "bin": {
+    "@jasongeorgetumusiime/remove-css-class": "bin/remove-css-class",
+    "remove-css-class": "bin/remove-css-class"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "html",
+    "css",
+    "cherrio"
+  ],
+  "author": "Jason George Tumusiime",
+  "license": "MIT",
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.3",
+    "esm": "^3.2.25",
+    "yargs": "^16.2.0"
+  }
+}
