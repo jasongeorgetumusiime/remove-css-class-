@@ -14,7 +14,7 @@ Node cli tool to remove all occurrences of a specified CSS class from an html fi
 
 ### Usage
 
-`remove-css-class --input=/location-to-input-html-file --input=/location-to-output-html-file --classname=classNameToRemove`
+`remove-css-class --input=/location-to-input-html-file --output=/location-to-output-html-file --classname=classNameToRemove`
 
 ### License
 
